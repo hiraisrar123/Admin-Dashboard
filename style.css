@@ -1,0 +1,26 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+    --clr-primary: #7180ec;
+    --clr-danger: #ff7782;
+    --clr-success: #41f1bd;
+    --clr-white: #fff;
+    --clr-info-dark: #768da1;
+    --clr-info-light: #dce1eb;
+    --clr-dark: #363949;
+    --clr-warning: #ff4edc;
+    --clr-light: rgba(132, 139, 200, 0.18);;
+    --clr-primary-varlant: #111e88;
+    --clr-dark-varlant: #677483;
+    --clr-color-background: #f6f6f6;
+
+    --card-border-radius:2rem;
+    --card-border-radius-1:0.4rem;
+    --card-border-radius-2:0.8rem;
+    --card-border-radius-3:1.2rem;
+
+    --card-padding:1.8rem;
+    --padding-1:1.2rem;
+    --padding-1:0 2rem 3rem var(--clr-light);
+}
