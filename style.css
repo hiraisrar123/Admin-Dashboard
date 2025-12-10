@@ -169,10 +169,10 @@ aside .sidebar a:hover{
   margin-left: 1rem;
   transition: .4s auto;
 }
-aside .sidebar a span .msg_count{
-  background: var(--clr-danger);
-  color:var(--clr-white);
-  padding: 2px 5px;
-  font-size: 11px;
-  border-radius:var(--card-border-radius-1);
+.sidebar .msg_count {
+    background: var(--clr-danger);
+    color: var(--clr-white);
+    padding: 2px 6px;
+    font-size: 11px;
+    border-radius: 6px;
 }
