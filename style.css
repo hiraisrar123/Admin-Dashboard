@@ -265,3 +265,47 @@ main .insides svg .circle{
   transform: rotate(270,80,80);
   stroke-width: 5;
 }
+/* Start */
+main .insides .progress{
+  position: relative;
+  height: 60px;
+  width: 68px;
+  border-radius: 50%;
+}
+main .insides svg{
+  height: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+}
+main .insides svg circle{
+  fill: none;
+  stroke: var(--clr-primary);
+  transform: rotate(270,80,80);
+  stroke-width: 5px;
+}
+main .insides .sales svg circle{
+  stroke-dashoffset: 10;
+  stroke-dasharray: 150;
+}
+main .insides .sales svg circle{
+  stroke-dashoffset: 10;
+  stroke-dasharray: 150;
+}
+main .insides .expenses svg circle{
+  stroke-dashoffset: 0;
+  stroke-dasharray: 150;
+}
+main .insides .income svg circle{
+  stroke:var(--clr-success)
+}
+main .insides .progress .number{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
