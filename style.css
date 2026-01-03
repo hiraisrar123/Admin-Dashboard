@@ -227,7 +227,7 @@ main .insides > div.expenses span{
 main .insides > div.income span{
   background: var(--clr-success);
 }
-main .insides > div.middle{
+main .insides  div.middle{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -407,5 +407,64 @@ main .recent-order a{
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
   box-shadow: var(--box-shadow);
-  transition: all;
+  transition: all .3s ease;
+}
+.right .recent-updates .updates:hover{
+  box-shadow: none;
+}
+.right .recent-updates .update{
+  display: grid;
+  grid-template-columns: 2.6rem auto;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Sales Analytical */
+
+.right .sales-analytics{
+  margin-top: 2rem;
+}
+.right .sales-analytics .item{
+  background-color: var(--clr-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1;
+  margin: 10px 0;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 1.4rem var(--card-padding);
+  border-radius: var(--card-border-radius-3);
+  box-shadow: var(--box-shadow);
+}
+.right .sales-analytics .item:hover{
+  box-shadow: none;
+}
+.right .sales-analytics .item .icon{
+  background: coral;
+  padding: 0.6rem;
+  color: var(--clr-white);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  align-items: center;
+}
+.right .sales-analytics .item:nth-child(3) .icon {
+  background-color: var(--clr-success);
+}
+
+.right .sales-analytics .item:nth-child(4) .icon {
+  background-color: var(--clr-danger);
+}
+.add-products div{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed;
+  color: var(--clr-dark-varlant);
+  margin-bottom: 40px;
 }
