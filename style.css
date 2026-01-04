@@ -22,6 +22,15 @@
     --padding-1:1.2rem;
     --padding-1: 0 2rem 3rem 0;
 }
+/* Dark Themes */
+.dark-theme-variables{
+  --clr-color-background: #181a1e;
+  --clr-white: #202528;
+  --clr-light: rgba(0,0,0,0.4);
+  --clr-dark: #edeff3;
+  --clr-dark-variant: #677483;
+  --clr-box-shadow: 0 2rem 3rem var(--clr-light);
+}
 *{
   margin: 0;
   padding: 0;
@@ -520,8 +529,14 @@ main .recent-order a{
     z-index: 3;
     padding-right: var(--card-padding);
     transition: all 0.3s ease;
+    animation: menuAni 1s forwards;
   }
 
+  @keyframes menuAni {
+    to{
+      left: 0;
+    }
+  }
   aside.active{
     left: 0;
   }
