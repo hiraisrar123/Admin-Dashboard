@@ -468,3 +468,59 @@ main .recent-order a{
   color: var(--clr-dark-varlant);
   margin-bottom: 40px;
 }
+
+/* ************************** */
+/* Media Query */
+/* ************************** */
+@media screen and (max-width:1200px){
+  .container{
+    width: 94%;
+    grid-template-columns: 2rem auto 14rem;
+  }
+  aside .sidebar h3{
+    display: none;
+  }
+  aside .sidebar a:last-child{
+    position: relative;
+    margin-top: 1.8rem;
+  }
+  main .insides{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+/* ************************** */
+/* Media Query for Phone */
+/* ************************** */
+
+@media screen and (max-width:760px){
+  .container{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .aside{
+    position: fixed;
+    width: 18rem;
+    z-index: 3;
+    background-color: var(--clr-white);
+
+  }
+
+  .aside .logo h2{
+    display: inline;
+  }
+
+  .aside .sidebar h3{
+    display: inline;
+  }
+
+  .aside .sidebar a{
+    width: 100%;
+    height: 3.4rem;
+  }
+  aside .top div.close span{
+    display: inline;
+    position: absolute;
+    right: 0;
+  }
+}
